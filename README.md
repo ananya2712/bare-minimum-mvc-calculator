@@ -1,2 +1,9 @@
-# calculator
-Simple Calculator to demonstrate MVC model in Java.
+
+
+```bash
+sudo -u postgres -i
+psql
+CREATE DATABASE test;
+\c test;
+CREATE TABLE test(a NUMERIC, b NUMERIC, c NUMERIC);
+```
